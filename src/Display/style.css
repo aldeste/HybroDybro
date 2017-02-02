@@ -1,0 +1,18 @@
+.display {
+  font-size: 4rem;
+  line-height: 0.8;
+  margin: 0;
+  font-weight: 900;
+  word-break: break-all;
+  color: var(--accent2);
+}
+
+.container {
+  background: var(--detail);
+  display: flex;
+  flex-flow: column wrap;
+  height: calc(100vh - 4.3rem);
+  padding: 5vw;
+  margin-top: -2rem;
+  color: var(--background)M
+}

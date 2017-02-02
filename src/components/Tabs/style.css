@@ -1,0 +1,32 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+}
+
+.active {
+  padding-bottom: calc(1rem - 3px);
+  border-bottom: 3px solid var(--main);
+}
+
+.tabbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #331832;
+  color: #C6D8D3;
+  position: fixed;
+  height: 4.3rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.fill {
+  fill: var(--detail);
+}
+
+.active .fill {
+  fill: var(--main);
+}

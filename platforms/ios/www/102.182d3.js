@@ -1,0 +1,1 @@
+webpackJsonp([102],{388:function(p,n,o){p.exports=o.p+"mg.svg"}});

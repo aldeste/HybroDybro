@@ -1,0 +1,30 @@
+.header {
+  background: var(--accent);
+  display: flex;
+  padding: 0 5vw;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  height: 2.6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 400;
+}
+
+.header + * {
+  margin-top: 2.6rem;
+}
+
+.backButton {
+  color: var(--detail);
+  margin: 0;
+  font-weight: 100;
+}
+
+.title {
+  color: var(--background);
+  margin: 0;
+  font-size: 1.5rem;
+}

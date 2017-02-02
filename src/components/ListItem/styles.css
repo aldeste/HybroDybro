@@ -1,0 +1,48 @@
+.item {
+  padding: 1rem 0;
+  background: var(--detail);
+  color: var(--background);
+  border-bottom: 1px solid var(--background);
+  display: flex;
+  width: 100vw;
+  z-index: 1;
+  position: relative;
+}
+.item:last-of-type {
+  padding-bottom: calc(2rem + 3rem);
+  border-bottom: 0;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemInfo * {
+  margin: 0;
+}
+
+.link::after {
+  content: '>';
+  position: absolute;
+  right: 5vw;
+  font-size: 4rem;
+  color: var(--background);
+  opacity: 0.5;
+  font-weight: 100;
+  z-index: 400;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 1rem;
+  max-width: 55vw;
+}

@@ -1,0 +1,14 @@
+.container {
+  background: var(--detail);
+  color: var(--accent2);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 50vw;
+}
+
+.title {
+  color: var(--detail);
+}
