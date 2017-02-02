@@ -31,7 +31,7 @@
                 "parents": {
                     "NSLocationWhenInUseUsageDescription": [
                         {
-                            "xml": "<string> </string>",
+                            "xml": "<string>Getting good grades</string>",
                             "count": 1
                         }
                     ]
@@ -50,7 +50,7 @@
             "PACKAGE_NAME": "com.example.alphabet"
         },
         "cordova-plugin-geolocation": {
-            "GEOLOCATION_USAGE_DESCRIPTION": " ",
+            "GEOLOCATION_USAGE_DESCRIPTION": "Getting good grades",
             "PACKAGE_NAME": "com.example.alphabet"
         }
     },

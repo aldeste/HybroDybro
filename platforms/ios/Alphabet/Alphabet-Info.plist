@@ -53,6 +53,6 @@
       <true/>
     </dict>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string/>
+    <string>Getting good grades</string>
   </dict>
 </plist>

@@ -14,7 +14,7 @@
             "PACKAGE_NAME": "com.example.alphabet"
         },
         "cordova-plugin-geolocation": {
-            "GEOLOCATION_USAGE_DESCRIPTION": " ",
+            "GEOLOCATION_USAGE_DESCRIPTION": "Getting good grades",
             "PACKAGE_NAME": "com.example.alphabet"
         }
     },
